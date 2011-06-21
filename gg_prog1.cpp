@@ -5,6 +5,7 @@ int main(){
 
 	int a, b;
 	cin >> a >> b;
-	cout << a << ", " << b << endl; //print out the two input number
+	int c = a*b; //product
+	cout << a << " * " << b << " = " << c << endl; //print out the result
 
 }
